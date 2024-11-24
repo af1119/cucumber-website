@@ -4,11 +4,12 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css -w"
+    "build-css": "tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css",
+    "build": "npm run build-css" 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uideck/play-tailwind.git"
+    "url": "git+https://github.com/af1119/cucumber-website.git"
   },
   "keywords": [],
   "author": "",
