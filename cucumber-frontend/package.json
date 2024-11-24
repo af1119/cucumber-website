@@ -1,11 +1,13 @@
 {
-  "name": "play-tailwind",
+  "name": "cucumber-website",
   "version": "2.0.0",
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
     "build-css": "tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css",
-    "build": "npm run build-css" 
+    "copy-html": "cp ./index.html ./assets/index.html",
+    "clean": "rm -rf ./assets",
+    "build": "npm run clean && npm run build-css && npm run copy-html"
   },
   "repository": {
     "type": "git",
