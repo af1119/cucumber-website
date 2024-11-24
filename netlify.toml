@@ -1,6 +1,6 @@
 [build]
 base = "cucumber-frontend"
-publish = "assets"
+publish = "cucumber-frontend"
 command = "npm run build"
 
 [[redirects]]
