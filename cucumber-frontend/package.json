@@ -5,7 +5,6 @@
   "main": "tailwind.config.js",
   "scripts": {
     "build-css": "tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css",
-    "clean": "rm -rf ./assets",
     "build": "npm run clean && npm run build-css"
   },
   "repository": {
